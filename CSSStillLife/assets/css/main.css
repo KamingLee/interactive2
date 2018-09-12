@@ -183,6 +183,22 @@ body {
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
 }
+#clip05 {
+	width: 210px;
+	height: 150px;
+	background: #fff10070;
+	clip-path: polygon(30% 0%, 80% 35%, 88% 35%, 68% 90%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 42% 55%);
+	top: 30px;
+	left: 50px;
+	position: absolute;
+	transform: rotate(60deg);
+	z-index: 10003;
+
+
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
 #parallelogram {
 	width: 800px;
 	height: 90px;
