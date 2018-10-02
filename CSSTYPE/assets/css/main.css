@@ -1,17 +1,25 @@
 body {
-	background: #cccccc;
+	background-image: radial-gradient(white,white,white, red);
 }
-
 .character {
-	width: 350px;
+	width: 300px;
 	height: 300px;
-	margin: 20px;
-	background: white;
+	margin: 10px;
+	background: gray;
 	position: relative;
 	float: left;
 	z-index: 10002;
 }
-
+.characterW {
+	transform: rotate(180deg);
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	background: gray;
+	position: relative;
+	float: left;
+	z-index: 10002;
+}
 #stroke01 {
 	width: 300px;
 	height: 300px;
@@ -841,7 +849,7 @@ body {
 }
 #stroke73 {
     width: 300px;
-    height: 390px;
+    height: 380px;
     background: black;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 10px;
@@ -856,7 +864,7 @@ body {
     background: black;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 10px;
-    top: 180px;
+    top: 170px;
     position: absolute;
     transform: rotate(-92deg) scaleX(-1);
     z-index: 1;
