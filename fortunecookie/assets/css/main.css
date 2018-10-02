@@ -1,14 +1,14 @@
 body {
-	background-image: radial-gradient(white,white,white, red);
-	cursor: url('cursor.png'),
+	background-image: radial-gradient(white,white,white, green);
+	cursor: src="/asset/img/cursor.png", default;
 }
 
 .character {
-	transform: scale(0.5);
+	transform: scale(0.9);
 	width: 300px;
 	height: 300px;
 	margin: 10px;
-	margin-bottom: -130px;
+	margin-bottom: -30px;
 	background: transparent;
 	position: relative;
 	float: left;
@@ -57,7 +57,7 @@ body {
 #stroke01 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 10px;
 	position: absolute;
@@ -79,7 +79,7 @@ body {
 #stroke02 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 61px;
 	position: absolute;
@@ -96,7 +96,7 @@ body {
 #stroke03 {
 	width: 210px;
     height: 169px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 70px;
 	top: 58px;
@@ -120,7 +120,7 @@ body {
 #stroke04 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 0px;
 	position: absolute;
@@ -134,7 +134,7 @@ body {
 #stroke05 {
 	width: 250px;
 	height: 200px;
-	background: red;
+	background: green;
 	clip-path:  polygon(21% 34%, 31% 20%, 61% 19%, 78% 26%, 89% 37%, 93% 52%, 91% 68%, 81% 80%, 60% 90%, 40% 86%, 59% 87%, 78% 78%, 87% 67%, 89% 51%, 86% 41%, 75% 29%, 57% 23%, 37% 27%);
 	left:70px;
 	top:105px;
@@ -149,7 +149,7 @@ body {
 #stroke06 {
 	width: 200px;
 	height: 190px;
-	background: red;
+	background: green;
 	clip-path:  polygon(21% 34%, 31% 20%, 61% 19%, 78% 26%, 89% 37%, 93% 52%, 91% 68%, 81% 80%, 60% 90%, 40% 86%, 59% 87%, 78% 78%, 87% 67%, 89% 51%, 86% 41%, 75% 29%, 57% 23%, 37% 27%);
 	left:80px;
 	top:-20px;
@@ -164,7 +164,7 @@ body {
 #stroke07 {
 	width: 300px;
 	height: 297px;
-	background: red;
+	background: green;
 	clip-path:  polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
 	left:70px;
 	position: absolute;
@@ -178,7 +178,7 @@ body {
 #stroke08 {
 	width: 210px;
     height: 169px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 100px;
 	top: -31px;
@@ -197,7 +197,7 @@ body {
 #stroke09 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
@@ -221,7 +221,7 @@ body {
 #stroke10 {
     width: 210px;
     height: 197px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 80px;
     top: -20px;
@@ -233,7 +233,7 @@ body {
 #stroke11 {
     width: 213px;
     height: 217px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 102px;
     top: 78px;
@@ -245,7 +245,7 @@ body {
 #stroke12 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
@@ -260,7 +260,7 @@ body {
 #stroke13 {
     width: 210px;
     height: 179px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 104px;
     top: -50px;
@@ -271,7 +271,7 @@ body {
 #stroke14 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 84px;
     top: 70px;
@@ -282,7 +282,7 @@ body {
 #stroke15 {
     width: 210px;
     height: 190px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 117px;
     top: 160px;
@@ -294,13 +294,13 @@ body {
 #stroke16 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
 	transform: rotate(0deg);
 	z-index: 1;
-	transition: all 400ms;
+	transition: all 10ms;
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
@@ -308,31 +308,31 @@ body {
 #stroke17 {
     width: 210px;
     height: 179px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 104px;
     top: -50px;
     position: absolute;
     transform: rotate(-87deg) scaleX(-1);
     z-index: 1;
-    transition: all 400ms;
+    /*transition: all 400ms;*/
 }
 #stroke18 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 84px;
     top: 70px;
     position: absolute;
     transform: rotate(-87deg) scaleX(-1);
     z-index: 1;
-    transition: all 400ms;
+    /*transition: all 400ms;*/
 }
 #stroke19 {
 	width: 300px;
 	height: 292px;
-	background: red;
+	background: green;
 	clip-path:  polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
 	left:70px;
 	position: absolute;
@@ -346,7 +346,7 @@ body {
 #stroke20 {
 	width: 210px;
     height: 169px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 100px;
 	top: -40px;
@@ -358,7 +358,7 @@ body {
 #stroke21 {
     width: 210px;
     height: 179px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 150px;
     top: 129px;
@@ -370,7 +370,7 @@ body {
 #stroke22 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
@@ -384,7 +384,7 @@ body {
 #stroke23 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 84px;
     top: 70px;
@@ -396,7 +396,7 @@ body {
 #stroke24 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	left:100px;
@@ -420,7 +420,7 @@ body {
 #stroke25 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	left:20px;
@@ -432,7 +432,7 @@ body {
 #stroke26 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	left:30px;
@@ -444,7 +444,7 @@ body {
 #stroke27 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 64px;
     top: 144px;
@@ -456,7 +456,7 @@ body {
 #stroke28 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
@@ -467,7 +467,7 @@ body {
 #stroke29 {
     width: 210px;
     height: 249px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 70px;
     top: -42px;
@@ -479,7 +479,7 @@ body {
 #stroke30 {
     width: 210px;
     height: 249px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 110px;
     top: 88px;
@@ -491,7 +491,7 @@ body {
 #stroke31 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 /*	left: 400px;*/
 	position: absolute;
@@ -502,7 +502,7 @@ body {
 #stroke32 {
     width: 210px;
     height: 219px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 100px;
     top: 148px;
@@ -514,7 +514,7 @@ body {
 #stroke33 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: -70px;
 	position: absolute;
@@ -525,7 +525,7 @@ body {
 #stroke34 {
     width: 300px;
     height: 300px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -40px;
     top: -10px;
@@ -537,7 +537,7 @@ body {
 #stroke35 {
     width: 300px;
     height: 240px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 50px;
     top: -10px;
@@ -549,7 +549,7 @@ body {
 #stroke36 {
     width: 300px;
     height: 270px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 90px;
     top: 30px;
@@ -560,7 +560,7 @@ body {
 #stroke37 {
     width: 300px;
     height: 260px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -35px;
     top: 30px;
@@ -572,7 +572,7 @@ body {
 #stroke38 {
     width: 300px;
     height: 300px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -10px;
     position: absolute;
@@ -583,7 +583,7 @@ body {
 #stroke39 {
     width: 300px;
     height: 300px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 65px;
     position: absolute;
@@ -594,7 +594,7 @@ body {
 #stroke40 {
 	width: 300px;
 	height: 292px;
-	background: red;
+	background: green;
 	clip-path:  polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
 	left:70px;
 	position: absolute;
@@ -605,7 +605,7 @@ body {
 #stroke41 {
     width: 300px;
     height: 292px;
-    background: red;
+    background: green;
     clip-path: polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
     left: 30px;
     position: absolute;
@@ -730,11 +730,22 @@ body {
 .R:hover #stroke53{
 	clip-path: polygon(97% 10%, 44% 19%, 2% 18%, 80% 26%, 39% 96%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 }
-
+.K:hover #stroke28{
+	clip-path: polygon(97% 10%, 44% 19%, 2% 18%, 80% 26%, 39% 96%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
+}
+.K:hover #stroke29{
+	clip-path: polygon(97% 10%, 44% 19%, 2% 18%, 80% 26%, 39% 96%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
+}
+.K:hover #stroke30{
+	clip-path: polygon(97% 10%, 44% 19%, 2% 18%, 80% 26%, 39% 96%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
+}
+.I:hover #stroke25{
+	clip-path: polygon(97% 10%, 44% 19%, 2% 18%, 80% 26%, 39% 96%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
+}
 #stroke42 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	position: absolute;
 	transform: rotate(0deg);
@@ -744,7 +755,7 @@ body {
 #stroke43 {
     width: 210px;
     height: 132px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 80px;
     top: -21px;
@@ -756,7 +767,7 @@ body {
 #stroke44 {
     width: 213px;
     height: 106px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 102px;
     top: 78px;
@@ -768,7 +779,7 @@ body {
 #stroke45 {
     width: 213px;
     height: 106px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 52px;
     top: 78px;
@@ -780,7 +791,7 @@ body {
 #stroke46 {
 	width: 300px;
 	height: 275px;
-	background: red;
+	background: green;
 	clip-path:  polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
 	left:70px;
 	position: absolute;
@@ -795,7 +806,7 @@ body {
 #stroke47 {
     width: 300px;
     height: 275px;
-    background: red;
+    background: green;
     clip-path: polygon(44% 0%, 27% 7%, 18% 20%, 10% 38%, 9% 54%, 11% 68%, 15% 84%, 27% 95%, 44% 100%, 59% 100%, 64% 91%, 45% 95%, 30% 91%, 17% 80%, 13% 65%, 12% 52%, 13% 36%, 20% 21%, 28% 9%);
     left: 30px;
     position: absolute;
@@ -806,7 +817,7 @@ body {
 #stroke48 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 124px;
     top: 210px;
@@ -818,7 +829,7 @@ body {
 #stroke49 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	position: absolute;
 	transform: rotate(0deg);
@@ -828,7 +839,7 @@ body {
 #stroke50 {
     width: 210px;
     height: 132px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 80px;
     top: -21px;
@@ -840,7 +851,7 @@ body {
 #stroke51 {
     width: 213px;
     height: 106px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 102px;
     top: 78px;
@@ -852,7 +863,7 @@ body {
 #stroke52 {
     width: 213px;
     height: 106px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 52px;
     top: 78px;
@@ -864,7 +875,7 @@ body {
 #stroke53 {
     width: 210px;
     height: 179px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 124px;
     top: 130px;
@@ -876,7 +887,7 @@ body {
 #stroke54 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 80px;
     top: -26px;
@@ -888,7 +899,7 @@ body {
 #stroke55 {
     width: 300px;
     height: 260px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 20px;
     top: 16px;
@@ -900,7 +911,7 @@ body {
 #stroke56 {
     width: 210px;
     height: 169px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 80px;
     top: 154px;
@@ -912,7 +923,7 @@ body {
 #stroke57 {
 	width: 260px;
 	height: 260px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: 30px;
 	top:-130px;
@@ -924,7 +935,7 @@ body {
 #stroke58 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left:20px;
 	position: absolute;
@@ -935,7 +946,7 @@ body {
 #stroke59 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left:-10px;
 	position: absolute;
@@ -946,7 +957,7 @@ body {
 #stroke60 {
     width: 300px;
     height: 220px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 30px;
     top: 180px;
@@ -958,7 +969,7 @@ body {
 #stroke61 {
     width: 300px;
     height: 260px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 120px;
     position: absolute;
@@ -969,7 +980,7 @@ body {
 #stroke62 {
     width: 300px;
     height: 320px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -10px;
     top: -12px;
@@ -981,7 +992,7 @@ body {
 #stroke63 {
     width: 300px;
     height: 320px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 45px;
     top: -12px;
@@ -993,7 +1004,7 @@ body {
 #stroke64 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: green;
 	clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
 	left: -70px;
 	position: absolute;
@@ -1004,7 +1015,7 @@ body {
 #stroke65 {
     width: 300px;
     height: 300px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -40px;
     top: -10px;
@@ -1016,7 +1027,7 @@ body {
 #stroke66 {
     width: 300px;
     height: 240px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 50px;
     top: -10px;
@@ -1028,7 +1039,7 @@ body {
 #stroke67 {
     width: 300px;
     height: 270px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 90px;
     top: 30px;
@@ -1040,7 +1051,7 @@ body {
 #stroke68 {
     width: 300px;
     height: 380px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 30px;
     top: -47px;
@@ -1052,7 +1063,7 @@ body {
 #stroke69 {
     width: 300px;
     height: 380px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: -26px;
     top: -47px;
@@ -1064,7 +1075,7 @@ body {
 #stroke70 {
     width: 300px;
     height: 240px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 30px;
     top: -15px;
@@ -1076,7 +1087,7 @@ body {
 #stroke71 {
     width: 300px;
     height: 340px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 44px;
     top: -27px;
@@ -1088,7 +1099,7 @@ body {
 #stroke72 {
     width: 300px;
     height: 240px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 10px;
     top: -80px;
@@ -1100,7 +1111,7 @@ body {
 #stroke73 {
     width: 300px;
     height: 380px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 10px;
     top: -34px;
@@ -1112,7 +1123,7 @@ body {
 #stroke74 {
     width: 300px;
     height: 240px;
-    background: red;
+    background: green;
     clip-path: polygon(47% 0%, 44% 9%, 42% 18%, 40% 26%, 39% 36%, 38% 50%, 38% 69%, 44% 100%, 48% 89%, 43% 71%, 42% 68%, 41% 36%, 42% 23%, 44% 13%, 45% 8%);
     left: 10px;
     top: 170px;
