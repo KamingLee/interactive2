@@ -1,8 +1,16 @@
 body {
+}
+#CURSOR {
+	cursor: url('cursoropen.png'), default;
+	height: 100vh;
+	width: auto;
+	position: fixed;
 	background-image: radial-gradient(white,white,white, red);
-	cursor: src="/asset/img/cursor.png", default;
 }
 
+div[class^="character"]:hover {
+	cursor: url('cursor.png'), default;
+}
 .character {
 	transform: scale(0.5);
 	width: 300px;

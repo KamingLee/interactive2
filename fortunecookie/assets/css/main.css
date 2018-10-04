@@ -1,11 +1,19 @@
-body {
-	background-image: radial-gradient(white,white,white, green);
-	cursor: url(cursor.png), default;	
+body{
+	
 }
-img {
-	width: 20px;
-	height: auto;
-	display: inline-flex;
+#CURSOR {
+	cursor: url('cursoropen.png'), default;
+	height: 100vh;
+	width: auto;
+	position: fixed;
+	background-image: radial-gradient(white,white,white, green);
+}
+
+div[class^="character"]:hover {
+	cursor: url('cursor.png'), default;
+}
+.break {
+	position: fixed;
 }
 .character {
 	transform: scale(0.9);

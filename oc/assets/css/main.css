@@ -1,7 +1,17 @@
 body {
-	background-image: radial-gradient(white,white,white, orange);
-	cursor: src="/asset/img/cursor.png", default;
 }
+#CURSOR {
+	cursor: url('cursoropen.png'), default;
+	height: 100vh;
+	width: auto;
+	position: fixed;
+	background-image: radial-gradient(white,white,white, orange);
+}
+
+div[class^="character"]:hover {
+	cursor: url('cursor.png'), default;
+}
+
 
 .character {
 	transform: scale(0.4);
