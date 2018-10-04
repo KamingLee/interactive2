@@ -1,0 +1,14 @@
+body {
+	background-image: /*radial-gradient(blue,red,orange,green,yellow)*/;
+}
+.strokeme
+{
+/*	font-size: 40px;*/
+    color: white;
+    line-height: 90%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}

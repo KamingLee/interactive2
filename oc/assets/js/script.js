@@ -23,24 +23,12 @@ $(document).ready(function(){
         // var random3 = Math.floor(Math.random() * 100);
         // console.log(random);
 
-        $('.F,.O1,.R,.T,.U,.N,.E1').css({
-            'transform': 'scale(' + xPos/900 + ',' + yPos/900 + ')'
-            // 'transform': 'polygon('+ random +'% '+ random1 +'%, '+ random2 +'% '+ random3 +'%, '+ random +'% '+ random +'%)'
-            // 'height' : xPos - 500 + 'px',
-        });
-    });
-    n = 1;
-
-    setInterval(function(){
-        $('body').append('<img src="cursor.png" />');
-
-        if (n%50 == 0) {
-            $('body').append('<div class="break"></div>');          
-        }
-        
-        n++;
-
-    },1000);
+    //     $('.O1,.R1,.A1,.N1,.G,.E,.C1,.H1,.I1,.C1,.K').css({
+    //         'transform': 'scale(' + xPos/900 + ',' + yPos/900 + ')'
+    //         // 'transform': 'polygon('+ random +'% '+ random1 +'%, '+ random2 +'% '+ random3 +'%, '+ random +'% '+ random +'%)'
+    //         // 'height' : xPos - 500 + 'px',
+    //     });
+    // });
 
 
 });
