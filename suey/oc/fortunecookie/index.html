@@ -11,10 +11,34 @@
     <script type="text/javascript">
         
     </script>
+        <style type="text/css">
+        .lucktplate{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            z-index: 10000;
+        }
+        .lucky{
+            position: relative;
+            float: left;
+            font-size: 1.5em;
+            transition: 400ms all;
+            margin: 10px;
+        }
+        .lucky:hover{
+            transform: scale(3);
+        }
+
+    </style>
 </head>
+
 <body>
     <div id="CURSOR">
     <a href="CSSTYPE/index.html" class="button">
+    <div class="luckyplate"></div>
+
+    <div style="position: fixed;">
+
      <div style="margin-left: 0px;" class="character F">
         <div id="stroke16"></div>
         <div id="stroke17"></div>
@@ -82,6 +106,7 @@
         <div id="stroke55"></div>
         <div id="stroke56"></div>
     </div>
+</div>
 </a>
 
 </body>

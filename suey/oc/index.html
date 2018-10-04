@@ -9,13 +9,32 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="assets/js/script.js"></script>
     <script type="text/javascript">
-        
     </script>
+    <style type="text/css">
+        .orangeplate{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            z-index: 10000;
+        }
+        .orange{
+            position: relative;
+            float: left;
+            font-size: 1.5em;
+            transition: 400ms all;
+            margin: 10px;
+        }
+        .orange:hover{
+            transform: scale(3);
+        }
+
+    </style>
 </head>
 
 <body>
     <div id="CURSOR">
     <a href="fortunecookie/index.html" class="button">
+    <div class="orangeplate"></div>
     <div style="margin-left: 0px;" class="character O">
         <div id="stroke40"></div>
         <div id="stroke41"></div>
@@ -101,7 +120,7 @@
         <div id="stroke57"></div>
         <div id="stroke58"></div>
     </div>
-    <div style="margin-left: 400px;" class="character F">
+    <div style="margin-left: 410px;" class="character F">
         <div id="stroke16"></div>
         <div id="stroke17"></div>
         <div id="stroke18"></div>  

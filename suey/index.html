@@ -8,11 +8,31 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="assets/js/script.js"></script>
+    <style type="text/css">
+        .riceplate{
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            z-index: 10000;
+        }
+        .rice{
+            position: relative;
+            float: left;
+            font-size: 1.5em;
+            transition: 400ms all;
+            margin: 10px;
+        }
+        .rice:hover{
+            transform: scale(3);
+        }
+
+    </style>
 </head>
 
 <body>
     <div id="CURSOR">
-    <a href="oc/index.html" class="button"> 
+    <a href="oc/index.html" class="button">
+    <div class="riceplate"></div> 
     <div style="margin-left: 0px;" class="character C">
         <div id="stroke07"></div>
         <div id="stroke08"></div>
@@ -122,6 +142,7 @@
     </div>
     </a>
 </div>
+
 
 </body>
 

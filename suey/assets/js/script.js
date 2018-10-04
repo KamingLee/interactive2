@@ -27,7 +27,22 @@ $(document).ready(function(){
             'clip-path': 'polygon('+ random +'% '+ random1 +'%, '+ random2 +'% '+ random3 +'%, '+ random +'% '+ random +'%)'
             // 'height' : xPos - 500 + 'px',
         });
+
     });
 
+    n = 1;
+
+    setInterval(function(){
+        $('.riceplate').append('<div class = "rice">🍚           🇨🇳  </div>');
+
+
+        // if (n%10 == 0) {
+        //     $('.riceplate').append('<div class="break"></div>');          
+        // }
+        
+        n++;
+
+    },500);
+    
 
 });

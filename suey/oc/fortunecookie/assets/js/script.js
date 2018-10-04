@@ -29,18 +29,21 @@ $(document).ready(function(){
             // 'height' : xPos - 500 + 'px',
         });
     });
-    n = 1;
+n = 1;
 
     setInterval(function(){
-        $('body').append('🍚');
+        $('.luckyplate').append('<div class = "lucky">🍀</div>');
 
-        if (n%50 == 0) {
-            $('body').append('<div class="break"></div>');          
-        }
+
+        // if (n%10 == 0) {
+        //     $('.riceplate').append('<div class="break"></div>');          
+        // }
         
         n++;
 
-    },1000);
+    },500);
+    
+
 
 
 });
